@@ -18,9 +18,10 @@ void loop() {
     const auto before = micros();
     const auto result = decision_tree.predict(inputs);
     const auto after = micros();
+    const auto elapsed = after - before;
     Serial.println(result);
     Serial.print("It took a total of: ");
-    Serial.print(after - before);
+    Serial.print(elapsed);
     Serial.println(" microseconds");
     delay(1000);
 }

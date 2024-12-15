@@ -4139,8 +4139,6 @@ namespace Eloquent {
                             }
                         }
                     }
-
-                protected:
                 };
             }
         }
