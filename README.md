@@ -1,5 +1,5 @@
 <h1 align="center">
-    MLP 8 Bit Int Quantized Model Deployment
+    DecisionTree Deployment on Arduino UNO
 </h1>
 
 <h4 align="center">
